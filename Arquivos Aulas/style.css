@@ -1,12 +1,12 @@
 :root {
   --color-green: #50fa7b;
+  --color-rocket: #7159c1;
 }
 
 * {
   border: 0;
   padding: 0;
   margin: 0;
-  color: white;
 }
 
 body {
@@ -21,7 +21,7 @@ header {
 }
 
 .links {
-  text-align: center;  
+  text-align: center;
 }
 
 .links a {
@@ -29,6 +29,7 @@ header {
   line-height: 42px;
   margin: 0 16px;
   text-decoration: none;
+  color: white;
 }
 
 .links a:hover {
@@ -39,6 +40,7 @@ header {
 #wrapper {
   text-align: center;
   padding: 32px;
+  color: white;
 }
 
 #wrapper img{
@@ -55,3 +57,85 @@ header {
 #links-footer a {
   border-bottom: 1px solid var(--color-green);
 }
+
+/* CARDS */
+
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--color-rocket);
+
+}
+
+.card__image-container img {
+  width: 100%;
+}
+
+.card__content,
+.card__info {
+  padding: 24px;
+  color: white;
+}
+
+.card__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.card__price {
+  background-color: var(--color-rocket);
+  filter: brightness(90%);
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* MODAL */
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+}
+
+.modal {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .close-modal {
+  color: black;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+}
+
+/* MODAL ATIVO */
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+iframe {
+  width: 90%;
+  height: 80%;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+}
+  
