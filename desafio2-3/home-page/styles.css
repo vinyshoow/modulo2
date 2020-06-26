@@ -112,3 +112,7 @@ header {
   text-decoration: none;
   font-weight: bold;
 }
+
+#content .info a:hover{
+  opacity: 0.9;
+}

@@ -168,7 +168,7 @@ span {
 .modal {
   background-color: white;
   width: 60%;
-  height: 60%;
+  height: 70%;
   margin: 5vh auto;
   position: relative;
 }
@@ -198,7 +198,7 @@ span {
 
 iframe {
   width: 59%;
-  height: 52%;
+  height: 62%;
   position: absolute;
   top: 12%;
   left: 21%;
