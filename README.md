@@ -7,6 +7,11 @@
 </h3>
 <br/>
 
+<h1 align="center">
+    <img src="https://user-images.githubusercontent.com/60045489/85893078-8622ef00-b7c8-11ea-960a-66c31c9e4dc3.gif" />
+</h1>
+
+
 
 ## :rocket: Linguagens utilizadas
   HTML5 <img src="https://logodownload.org/wp-content/uploads/2016/10/html5-logo.png" width="20px" height="20px"> <br/>
